@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header{
+    background-color: #d5a1ff;
+    width: 100%;
+    height: auto;
+}
+
+.formcontainer{
+    background-color: #f6c02c;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+}
+
+
+.loginform{
+
+    background-color: #1ce4bf;
+    width: 20%;
+    height: auto;
+    display: flex;
+    padding: 10px 20px;
+}
+form{
+    background-color:#fff;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    
+}
+.form-input i{
+    position: relative;
+    top: 3.2rem;
+    left: 1rem;
+    width:0px;
+    color: #000075;
+}
+.form-input input, select{
+    width: 90%;
+    height: auto;
+    border-radius: 2px;
+    margin: 2rem auto;
+    border: 3px solid;
+    font-size: 14px;
+    color: #000075;
+    font-weight: 500;
+    outline-color: #000075;
+    padding-left: 20px;
+}
